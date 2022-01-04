@@ -1,58 +1,134 @@
 body {
-  padding: 0 30px;
-  font-size: 14px;
-  line-height: 22px;
-  font-family: "Arial", sans-serif;
-  color: #222222;
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Arial", sans-serif;
+    color: #222222;
+}
+
+header {
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 200px;
 }
 
 h1 {
-  font-size: 36px;
-  line-height: normal;
+    font-size: 30px;
+    line-height: normal;
 }
 
 h2 {
-  font-size: 20px;
-  line-height: normal;
+    font-size: 20px;
+    line-height: normal;
 }
 
 a {
-  color: #0099ef;
-  text-decoration: underline;
-}
-
-.avatar {
-  border-radius: 10px;
-}
-
-nav {
-  margin-bottom: 30px;
-  padding: 20px;
-
-  background-color: #4470c4;
-
-  color: #ffffff;
-}
-
-nav a {
-  color: #ffffff;
+    text-decoration: underline;
 }
 
 ul {
-  list-style: none;
-  padding-left: 0;
+    padding-bottom: 10px;
+    padding: 0px;
 }
 
-footer {
-  margin-top: 30px;
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+ul li a {
+    font-family: Tahoma, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 4px 10px;
+    background: #193D6A
+}
+
+ul li a:hover {
+    background: #408BE8;
+    padding: 7px 14px;
+    position: relative;
+    top: -3px
+}
+
+table {
+    border: 2px solid black;
+    text-align: left;
+    width: auto;
+    background-color: #FFCE21;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+.site-block {
+    height: auto;
+    background-color: #c7c9ae;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.site-block p {
+    padding-left: 100px;
+    font-family: "Roboto";
+    font-size: 18px;
+    display: inline;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.site-block .avatar {
+    padding-left: 10px;
+    display: inline;
+    vertical-align: middle;
 }
 
 .dark-theme {
-  color: #f2f2f2;
-  background-color: #17161a;
+    color: #f2f2f2;
+    background-color: #17161a;
 }
 
 .light-theme {
-  color: #333333;
-  background-color: #eae9f2;
+    color: #020202;
+    background-color: #eae9f2;
+}
+
+.site-footer {
+    padding: 5px;
+    height: auto;
+    background-color: #e1a8f3;
+    margin-top: 10px;
+}
+
+.footer-logo {
+    padding-left: 10px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.site-footer p {
+    padding-left: 100px;
+    font-family: "Roboto";
+    font-size: 18px;
+    display: inline;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.theme-button {
+    padding: 06px;
+    margin-left: 0px
+}
+
+section {
+    font-size: 16px;
+    padding-left: 100px;
+    display: inline;
+    line-height: normal;
 }

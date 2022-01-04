@@ -1,37 +1,65 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Works</a></li>
+    <li><a href="#">Links</a></li>
+    <li><a href="#">Contacts</a></li>
+</ul>
+
+<head>
     <meta charset="utf-8">
     <title>Тестовый сайт</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body class="page light-theme">
+</head>
+
+<body class="page light-theme">
     <header>
-      <h1>Сайт для тестов</h1>
-    </header>
-    <div class="container">
-        <a class="header-link" href="https://ruslanaisin.github.io/RuslanAisin/">На главную</a>
+        <h1>Сайт для тестов</h1>
         <button class="theme-button" type="button">Изменить тему</button>
-      </div>
-    <main>
-      <img class="avatar" src="engine.svg" width="50" height="50" alt="Аватар">
-      <nav>
+    </header>
+
+    <div class="site-block">
+        <img class="avatar" src="img/engine.svg" width="40" height="40" alt="Logo">
+        <p> Check Engine </p>
+    </div>
+
+    <div class="container">
         <h2>Тестовый блог</h2>
-        <ul>
-          <li><a href="link-1.html">Ссылка номер 1</a></li>
-        </ul>
-      </nav>
-      <section>
-        <p>Всем привет! <a href="https://ruslanaisin.github.io/RuslanAisin/">Test webpage</a> создал сайт для тестов </p>
+        <nav>
+            <table>
+                <tr>
+                    <td>
+                        <a href="a.html" target="page">LINK 1</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="a.html" target="page">LINK 1</a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+    </div>
+
+    <section>
+        <p>
+            <B>Всем привет!</B>
+            <BR><a href="https://ruslanaisin.github.io/RuslanAisin/">Test webpage</a> создал сайт для экспериментов </p>
         <p>Здесь будет текст</p>
-      </section>
-      <section>
-        Возможно с разделами
-      </section>
-    </main>
-    <footer>
-      Возможно подвал сайта
+        <p>Возможно с разделами</p>
+    </section>
+    <footer class="site-footer">
+        <img class="footer-logo" src="img/moon.svg" width="30" height="30" alt="Logo">
+        <p> Something footer </p>
     </footer>
+    <HR align="center" size=10 width="60%" color="#e1a8f3">
+    <HR align="center" size=10 width="40%" color="#e1a8f3">
+    <HR align="center" size=10 width="20%" color="#e1a8f3">
+    <HR align="center" size=10 width="5%" color="#e1a8f3">
     <script src="script.js"></script>
-  </body>
+</body>
+
+
 </html>
