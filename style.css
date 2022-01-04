@@ -46,3 +46,13 @@ ul {
 footer {
   margin-top: 30px;
 }
+
+.dark-theme {
+  color: #f2f2f2;
+  background-color: #17161a;
+}
+
+.light-theme {
+  color: #333333;
+  background-color: #eae9f2;
+}
